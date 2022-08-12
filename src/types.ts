@@ -81,6 +81,7 @@ type RequirementType =
   | "GITHUB"
   | "GITHUB_STARRING"
   | "NOUNS"
+  | "CASK"
 
 type SupportedChains =
   | "ETHEREUM"
@@ -163,7 +164,7 @@ type Requirement = {
     minAmount?: number
     maxAmount?: number
     addresses?: Array<string> // (ALLOWLIST)
-    id?: string // fancy_id (POAP), edition id (MIRROR), id of the project (JUICEBOX)
+    id?: string // fancy_id (POAP), edition id (MIRROR), id of the project (JUICEBOX), plan id (CASK)
     strategy?: {
       name: string
       params: Record<string, any>
@@ -287,6 +288,7 @@ enum RequirementTypeColors {
   UNLOCK = "var(--chakra-colors-salmon-400)",
   JUICEBOX = "var(--chakra-colors-yellow-500)",
   GALAXY = "var(--chakra-colors-black)",
+  CASK = "var(--chakra-colors-purple-500)",
   FREE = "var(--chakra-colors-cyan-400)",
   TWITTER = "var(--chakra-colors-twitter-400)",
   TWITTER_FOLLOW = "var(--chakra-colors-twitter-400)",

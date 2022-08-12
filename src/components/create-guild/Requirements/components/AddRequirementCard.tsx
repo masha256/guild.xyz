@@ -118,6 +118,11 @@ const requirementButtons: {
       label: "Galaxy",
       type: "GALAXY",
     },
+    {
+      icon: <Img src="/requirementLogos/cask.svg" boxSize={6} />,
+      label: "Cask",
+      type: "CASK",
+    },
   ],
 }
 

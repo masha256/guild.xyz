@@ -33,6 +33,7 @@ import SnapshotFormCard from "./components/SnapshotFormCard"
 import TokenFormCard from "./components/TokenFormCard"
 import TwitterFormCard from "./components/TwitterFormCard"
 import UnlockFormCard from "./components/UnlockFormCard"
+import CaskFormCard from "./components/CaskFormCard"
 import useAddRequirementsFromQuery from "./hooks/useAddRequirementsFromQuery"
 
 const REQUIREMENT_FORMCARDS = {
@@ -47,6 +48,7 @@ const REQUIREMENT_FORMCARDS = {
   NOUNS: NftFormCard,
   JUICEBOX: JuiceboxFormCard,
   UNLOCK: UnlockFormCard,
+  CASK: CaskFormCard,
   GALAXY: GalaxyFormCard,
   TWITTER: TwitterFormCard,
   TWITTER_FOLLOW: TwitterFormCard,
